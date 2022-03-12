@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("AxieOrigin.jpg");
+    background-size: cover;
+    
+}
+.fundo{
+    height: 100vh;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color:  #45921e80;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.mais1{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    }
+    .mais2{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin-right: 40px;
+        margin-top: 20px;
+        }
+    .menos1{
+        width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    }
+    .menos2{
+        width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+    }
+    .reset{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    }
+    .end{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    }
+    .texto {
+        position: absolute;        
+        color:#fff;        
+        text-align: center;    
+        top: 165px;
+        left: 140px;
+        width: 67px;
+        height: 80px;
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow:-1px 0 black, 0 2px black,
+        2px 0 black, 0 -1px black;
+        
+  }
+    #img{
+        margin-top: 5px;
+        margin-bottom: 20px;
+        height: 80px;
+
+    }
+    #botao{
+        box-shadow: 5px 10px 20px black;
+        background-color: #f58c0ce0;
+        
+
+    }
+    #botao:hover{
+        background-color: #db6702;
+    }
+ #botao:active{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ #calc{
+     color: white;
+     text-shadow: black 0.1em 0.1em 0.2em;
+ }

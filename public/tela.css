@@ -1,0 +1,20 @@
+#img{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 80px;
+    
+
+}
+.texto {
+    position: absolute;        
+    color:#fff;        
+    text-align: center;    
+    top: 15px;
+    left: 37px;
+    width: 67px;
+    height: 80px;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:#000 2px -1px, #000 -1px 2px, #000 2px 2px, #000 -1px -1px;  
+    
+}

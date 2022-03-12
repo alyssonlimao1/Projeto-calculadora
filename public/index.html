@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Axie</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="">
+         var socket = io('http://localhost:3000')
+         function soma(fator){
+            socket.emit('somar', fator)
+         }
+    </script>
+</head>
+<body>
+    <div class="fundo">
+        <div class="calculadora">
+            <h1 id="calc">Calculadora</h1>
+            <tr>
+                <td><button class="reset" id="botao" onclick="reset()">Reset</button></td>
+                <td><button class="end" id="botao" onclick="turn()">End turn</button></td>
+            </tr>
+            <div class="imagem" id="img" >
+                <img id="img" src="Energia1.png">
+                <div class="texto" id="resultado">3</div>
+            </div>
+            <table>                   
+                <tr>
+                    <td><button class="mais1" id="botao" onclick="mai1(); soma(1); ">+1</button></td>
+                    <td><button class="mais2" id="botao" onclick="mai2(); soma(2);">+2</button></td>
+                    <td><button class="menos1" id="botao" onclick="men1()">-1</button></td>
+                    <td><button class="menos2" id="botao" onclick="men2()">-2</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>
